@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: sans-serif;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+img{
+  width: 100%;
+  height: 300px;
+}
+.col{
+  width: 21%;
+  padding: 1% 1%;
+  height: 350px;
+  flex-direction: row;
+  margin: 10px 10px;
+}
+.searchbar{
+  text-align: center;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+}
+.card{
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.card-desc{
+  margin-bottom: 30px 30px;
+}
+
+h2{
+  margin-right: 10px;
+}
+input{
+  padding: 5px 5px;
+
+}
+ul{
+  display: flex;
+  justify-content:space-around;
+  margin: 30px;
+}
+ul>li{
+  list-style: none;
+}
+ul>li>a{
+  text-decoration: none;
+  margin: 5px 5px;
+  float: right;
+  font-size: 20px;
+  font-weight: bolder;
+  
+  
+}
+
+@media screen and (max-width:600px) {
+  .col{
+    width: 90%;
+ margin-bottom: 40px;
+  }
+  
+}
+@media screen and (max-width:900px) {
+  .col{
+    width: 42%;
+    margin-bottom: 40px;
+    
+  }
+  
+}
